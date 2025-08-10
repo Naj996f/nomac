@@ -2,25 +2,32 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: white;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 20px; 
+    color: #333;
+
+  font-style: oblique;
 }
 
 .header {
   margin-bottom: 20px;
+ 
 }
 
 .header h1 {
   font-size: 24px;
   font-weight: bold;
   color: #333;
+  font-style: oblique;
 }
+
+ 
 
 .section {
   display: flex;
@@ -29,7 +36,7 @@ body {
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: #c6cbc7;
   border: none;
   color: white;
   padding: 20px;
@@ -43,7 +50,7 @@ body {
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: #c6cbc7;
 }
 
 .code-container {
@@ -63,4 +70,26 @@ code {
   color: #333;
   background-color: #f4f4f4;
   padding: 10px;
+ 
+}
+.side-imag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 250px; /* تعديل الحجم حسب الحاجة */
+  height: auto;
+  z-index: 10; 
+}
+/* تنسيق الصورة في الزاوية العلوية اليسرى */
+.side-image {
+  position: absolute;
+  top: 10px;
+   left: 10px;
+  width: 170px; /* تعديل الحجم حسب الحاجة */
+  height: auto;
+  z-index: 10; 
+}
+body{margin: 0;
+background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg)no-repeat center center fixed;
+background-size: cover;
 }
