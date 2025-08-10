@@ -6,38 +6,50 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
-.container {
+/* تنسيق الصورة في الزاوية العلوية اليسرى */
+.side-image {
+  position: absolute;
+  top: 10px;
+   left: 10px;
+  width: 170px; /* تعديل الحجم حسب الحاجة */
+  height: auto;
+  z-index: 10; 
+}
+/* تنسيق الصورة في الزاوية العلوية اليمنى */
+
+.side-imag {
+  position: absolute;
+  top: 10px;
+   right: 10px;
+  width: 250px; /* تعديل الحجم حسب الحاجة */
+  height: auto;
+  z-index: 10; 
+}
+ .container {
   text-align: center;
 }
 
-.input-box {
-  padding: 15px 30px;
-  font-size: 20px;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  outline: none;
-  color: #666;
-}
 
-.buttons {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
+/* تنسيق الزر */
 .btn {
   padding: 12px 24px;
   font-size: 18px;
-  background-color: #e3e2e1;
+  background-color: #c6cbc7;
   border: none;
   border-radius: 30px;
   cursor: pointer;
+    font-style: oblique;
+
   transition: background-color 0.3s ease;
 }
 
+/* تأثير عند مرور الماوس على الزر */
 .btn:hover {
   background-color: #ccc;
 }
+body{margin: 0;
+background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg)no-repeat center center fixed;
+background-size: cover;}
