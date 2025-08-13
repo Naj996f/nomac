@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Simple UI</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"> <!-- تحديد الترميز المستخدم للنصوص -->
+  <title>Simple UI</title> <!-- عنوان الصفحة الذي يظهر في شريط المتصفح -->
+  <link rel="stylesheet" href="style.css"> <!-- ربط ملف CSS خارجي لتنسيق الصفحة -->
 </head>
-<body style="margin: 0;background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg) no-repeat center center fixed;background-size: cover;">
+<body style="margin: 0; background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg) no-repeat center center fixed; background-size: cover;"> <!-- تعيين الخلفية للصفحة مع صورة تغطي كامل الشاشة -->
 
-  <!-- إضافة الصورة في الزاوية العلوية اليسرى -->
-  <img src="https://i.postimg.cc/wB05TkkS/IMG-0050.png" alt="Image" class="side-image" />
-  <img src="https://i.postimg.cc/CLkQMWnX/IMG-0051.png" alt="Image" class="side-imag" />
+  <!-- إضافة الصورة في الزاوية العلوية اليسرى واليمنى -->
+  <img src="https://i.postimg.cc/wB05TkkS/IMG-0050.png" alt="Image" class="side-image" /> <!-- صورة في الزاوية العلوية اليسرى -->
+  <img src="https://i.postimg.cc/CLkQMWnX/IMG-0051.png" alt="Image" class="side-imag" /> <!-- صورة في الزاوية العلوية اليمنى -->
 
-  <div class="container">
-    <div class="buttons">
-      <button class="btn"onclick= "opencheck()">Check list</button>
+  <div class="container"> <!-- الحاوية التي تحتوي على الأزرار -->
+    <div class="buttons"> <!-- قسم الأزرار -->
+      <button class="btn" onclick="opencheck()">Check list</button> <!-- زر لفتح صفحة جديدة عند الضغط عليه -->
     </div>
-     
   </div>
-</footer>
-    <script>
-function opencheck()
-{
-  window.open('page2.html','_blank');}
-</script>
-  </div>
+
+  <!-- سكربت لفتح صفحة جديدة عند الضغط على الزر -->
+  <script>
+    function opencheck() {
+      window.open('page2.html', '_blank'); <!-- فتح صفحة جديدة في تبويب جديد -->
+    }
+  </script>
+
 </body>
 </html>
