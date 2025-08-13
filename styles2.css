@@ -1,95 +1,65 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: white;
+  font-family: Arial, sans-serif; /* نوع الخط للنصوص */
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  padding: 0; /* إزالة الحشوات الافتراضية */
+  background-color: white; /* خلفية بيضاء للصفحة */
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px; 
-    color: #333;
-
-  font-style: oblique;
-}
-
-.header {
-  margin-bottom: 20px;
- 
+  display: flex; /* استخدام Flexbox لترتيب المحتوى */
+  flex-direction: column; /* ترتيب المحتوى عموديًا */
+  align-items: center; /* محاذاة العناصر للوسط أفقيًا */
+  padding: 20px; /* مسافة داخلية حول المحتوى */
+  color: #e9e7e7; /* لون النص */
+  justify-content: center; /* محاذاة المحتوى للوسط عموديًا */
+  font-style: oblique; /* جعل النص مائل */
+  margin-top: 50px;
 }
 
 .header h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  font-style: oblique;
+  font-size: 24px; /* حجم الخط */
+  font-weight: bold; /* جعل النص عريض */
+  color: #e9e7e7; /* لون النص */
+  font-style: oblique; /* جعل النص مائل */
+  margin-top: 50px;
 }
-
  
-
-.section {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
 
 .button {
-  background-color: #c6cbc7;
-  border: none;
-  color: white;
-  padding: 20px;
-  margin: 5px;
-  width: 80px;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
+  background-color: #c6cbc7; /* لون خلفية الزر */
+  border: none; /* بدون حدود */
+  color: white; /* لون النص في الزر */
+  padding: 20px; /* حجم المسافة داخل الزر */
+  margin: 5px; /* مسافة بين الأزرار */
+  width: 80px; /* عرض الزر */
+  text-align: center; /* محاذاة النص داخل الزر للوسط */
+  font-weight: bold; /* جعل النص عريض */
+  cursor: pointer; /* تغيير المؤشر عند المرور على الزر */
+  border-radius: 5px; /* حواف مستديرة */
+  transition: background-color 0.3s; /* تأثير تغيير اللون */
+    border-radius: 30px; /* جعل الزر ذو حواف مستديرة */
 
-.button:hover {
-  background-color: #c6cbc7;
-}
-
-.code-container {
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 20px;
-  max-width: 80%;
-  overflow: auto;
-}
-
-code {
-  display: block;
-  font-family: 'Courier New', Courier, monospace;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  color: #333;
-  background-color: #f4f4f4;
-  padding: 10px;
- 
 }
 .side-imag {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 250px; /* تعديل الحجم حسب الحاجة */
-  height: auto;
-  z-index: 10; 
+  position: absolute; /* تحديد موضع ثابت بالنسبة للصفحة */
+  top: 10px; /* إزاحة من الأعلى */
+  right: 10px; /* إزاحة من اليمين */
+  width: 250px; /* عرض الصورة */
+  height: auto; /* الارتفاع تلقائي */
+  z-index: 10; /* جعل الصورة فوق باقي العناصر */
 }
-/* تنسيق الصورة في الزاوية العلوية اليسرى */
+
 .side-image {
-  position: absolute;
-  top: 10px;
-   left: 10px;
-  width: 170px; /* تعديل الحجم حسب الحاجة */
-  height: auto;
-  z-index: 10; 
+  position: absolute; /* تحديد موضع ثابت بالنسبة للصفحة */
+  top: 10px; /* إزاحة من الأعلى */
+  left: 10px; /* إزاحة من اليسار */
+  width: 170px; /* عرض الصورة */
+  height: auto; /* الارتفاع تلقائي */
+  z-index: 10; /* جعل الصورة فوق باقي العناصر */
 }
-body{margin: 0;
-background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg)no-repeat center center fixed;
-background-size: cover;
+
+body {
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg) no-repeat center center fixed; /* وضع صورة خلفية ثابتة ومتمركزة */
+  background-size: cover; /* جعل الخلفية تغطي كامل الصفحة */
 }
