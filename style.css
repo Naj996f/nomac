@@ -1,55 +1,57 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /* تعيين نوع الخط للنصوص */
+  background-color: white; /* تعيين خلفية بيضاء للصفحة */
+  display: flex; /* استخدام Flexbox لترتيب العناصر */
+  justify-content: center; /* محاذاة العناصر أفقياً في المنتصف */
+  align-items: center; /* محاذاة العناصر عمودياً في المنتصف */
+  height: 100vh; /* تحديد ارتفاع الصفحة ليكون 100% من نافذة العرض */
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  padding: 0; /* إزالة الحشوات الافتراضية */
 }
 
 /* تنسيق الصورة في الزاوية العلوية اليسرى */
 .side-image {
-  position: absolute;
-  top: 10px;
-   left: 10px;
-  width: 170px; /* تعديل الحجم حسب الحاجة */
-  height: auto;
-  z-index: 10; 
+  position: absolute; /* تحديد موضع الصورة بشكل ثابت */
+  top: 10px; /* إزاحة الصورة 10px من الأعلى */
+  left: 10px; /* إزاحة الصورة 10px من اليسار */
+  width: 170px; /* تعديل حجم الصورة حسب الحاجة */
+  height: auto; /* جعل الارتفاع يتناسب مع العرض تلقائياً */
+  z-index: 10; /* تحديد ترتيب الطبقات بحيث تكون الصورة فوق العناصر الأخرى */
 }
+
 /* تنسيق الصورة في الزاوية العلوية اليمنى */
-
 .side-imag {
-  position: absolute;
-  top: 10px;
-   right: 10px;
-  width: 250px; /* تعديل الحجم حسب الحاجة */
-  height: auto;
-  z-index: 10; 
-}
- .container {
-  text-align: center;
+  position: absolute; /* تحديد موضع الصورة بشكل ثابت */
+  top: 10px; /* إزاحة الصورة 10px من الأعلى */
+  right: 10px; /* إزاحة الصورة 10px من اليمين */
+  width: 250px; /* تعديل حجم الصورة حسب الحاجة */
+  height: auto; /* جعل الارتفاع يتناسب مع العرض تلقائياً */
+  z-index: 10; /* تحديد ترتيب الطبقات بحيث تكون الصورة فوق العناصر الأخرى */
 }
 
+.container {
+  text-align: center; /* محاذاة النصوص في الحاوية إلى المنتصف */
+}
 
 /* تنسيق الزر */
 .btn {
-  padding: 12px 24px;
-  font-size: 18px;
-  background-color: #c6cbc7;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-    font-style: oblique;
-
-  transition: background-color 0.3s ease;
+  padding: 12px 24px; /* إضافة حشوة داخل الزر */
+  font-size: 18px; /* تحديد حجم النص في الزر */
+  background-color: #c6cbc7; /* تعيين لون خلفية الزر */
+  border: none; /* إزالة حدود الزر */
+  border-radius: 30px; /* جعل الزر ذو حواف مستديرة */
+  cursor: pointer; /* تغيير شكل المؤشر عند مرور الفأرة فوق الزر */
+  font-style: oblique; /* جعل النص مائل */
+  transition: background-color 0.3s ease; /* تأثير تغيير اللون عند مرور الفأرة */
 }
 
 /* تأثير عند مرور الماوس على الزر */
 .btn:hover {
-  background-color: #ccc;
+  background-color: #ccc; /* تغيير لون الخلفية عند مرور الفأرة */
 }
-body{margin: 0;
-background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg)no-repeat center center fixed;
-background-size: cover;}
+
+body {
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  background: url(https://i.postimg.cc/kMjQmkjk/Sakaka-1.jpg) no-repeat center center fixed; /* تعيين صورة خلفية ثابتة */
+  background-size: cover; /* جعل الصورة تغطي كامل الخلفية */
+}
